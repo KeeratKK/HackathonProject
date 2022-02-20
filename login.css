@@ -1,13 +1,15 @@
 * {
   margin: 0;
   padding: 0;
+  background-color: lightblue;
   box-sizing: border-box;
-  background-color: #0d1117;
+  font-family: "Arial";
 }
 
 li,
 a,
 button {
+  background-color: black;
   font-family: "Roboto Serif", sans-serif;
   text-decoration: none;
   color: #edf0f1;
@@ -15,6 +17,7 @@ button {
 }
 
 header {
+  background-color: black;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,16 +25,19 @@ header {
 }
 
 .name {
+  background-color: black;
   font-family: "Roboto Serif", sans-serif;
   color: white;
   font-size: 20px;
 }
 
 .navlinks {
+  background-color: black;
   list-style: none;
 }
 
 .navlinks li {
+  background-color: black;
   display: inline-block;
   padding-left: 20px;
   padding-right: 20px;
@@ -66,34 +72,52 @@ header {
   background-color: #09bcee;
 }
 
-.projInfo {
-  padding: 200px;
-  display: flex;
-  flex-direction: column;
+.log {
+  width: 382px;
+  margin: auto;
+  margin: 20 0 0 450px;
+  padding: 50px;
+  background: #84d8c7;
+  border-radius: 15px;
+  overflow: hidden;
+}
+h1 {
   text-align: center;
-  align-items: center;
-  background-color: lightblue;
-  color: white;
-  font-weight: bold;
+  padding: 20px;
+  color: #277582;
 }
 
-.projInfo h1,
-p {
-  background-color: lightblue;
+#Username {
+  width: 300px;
+  height: 30px;
+  border-radius: 3px;
+  padding-left: 8px;
+  border: none;
 }
 
-#clubCal {
-  padding-bottom: 25px;
+label {
+  font-size: 17px;
 }
 
-#clubP {
-  padding-bottom: 25px;
+#Password {
+  width: 300px;
+  height: 30px;
+  border-radius: 3px;
+  padding-left: 8px;
+  border: none;
 }
 
-#bullet {
-  padding-bottom: 25px;
+#btnn {
+  width: 300px;
+  height: 30px;
+  border: none;
+  border-radius: 17px;
+  padding-left: 7px;
+  color: blue;
 }
 
-#img {
-  width: 40%;
+#random {
+  padding: 25px;
+  color: red;
+  text-align: center;
 }
