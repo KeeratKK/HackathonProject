@@ -4,9 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Login</title>
-    <link rel="stylesheet" href="login.css" />
-    <script src="login.js"></script>
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="sign.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@200&display=swap"
+      rel="stylesheet"
+    />
+    <script src="sign.js"></script>
   </head>
   <body>
     <header>
@@ -20,24 +24,28 @@
       </nav>
       <a class="contact" href="#"><button id="btn">Contact</button></a>
     </header>
-    <h1>Boruto Calendar Login Page</h1>
-    <div class="log">
-      <label><b>User Name</b></label>
-      <input type="text" name="Username" id="Username" placeholder="Username" />
-      <br />
-      <br />
+    <h1>Boruto Calendar Sign Up Page</h1>
+    <div class="sign">
+      <label><b>Full Name</b></label>
+      <input type="text" name="Name" id="Name" placeholder="Full Name" />
+      <br /><br />
+      <label><b>Email</b></label>
+      <input type="text" name="email" id="email" placeholder="Email" />
+      <br /><br />
+      <label><b>Username</b></label>
+      <input type="text" name="uname" id="uname" placeholder="Username" />
+      <br /><br />
       <label><b>Password</b></label>
       <input
         type="Password"
-        name="Password"
-        id="Password"
+        name="password"
+        id="password"
         placeholder="Password"
       />
       <br /><br />
       <button type="button" name="btnn" id="btn" onclick="newFunction()">
-        Login
+        Sign Up
       </button>
-      <br /><br />
     </div>
     <div id="random"></div>
   </body>
