@@ -110,6 +110,14 @@ h1 {
   border: none;
 }
 
+#role {
+  width: 250px;
+  height: 30px;
+  border-radius: 3px;
+  padding-left: 8px;
+  border: none;
+}
+
 label {
   padding-bottom: 5px;
   font-size: 17px;
