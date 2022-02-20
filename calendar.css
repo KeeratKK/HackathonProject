@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
   }
   .test{
     width:  100%;
@@ -87,5 +86,36 @@
   
   #btn:hover {
     background-color: #09bcee;
+  }
+
+  .form{
+      position: absolute;
+      width:80%;
+    left:10%;
+    right:10%;
+    top:85%;
+    background-color: rgb(54, 53, 53);
+    color: aliceblue;
+    align-items: center;
+    border-radius: 50px;
+
+    align-items: center;
+    align-content: center;
+    align-self: center;
+
+    text-align: center;
+  }
+  .form input{
+      align-items: center;
+      align-content: center;
+      align-self: center;
+      text-align: center;
+      font-family: 'Courier New', Courier, monospace;
+      font-size: 30px;
+      
+  }
+  .text{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px; 
   }
   
