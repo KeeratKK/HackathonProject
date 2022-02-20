@@ -2,12 +2,13 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: #0d1117;
+  background-color: lightblue;
 }
 
 li,
 a,
 button {
+  background-color: #0d1117;
   font-family: "Roboto Serif", sans-serif;
   text-decoration: none;
   color: #edf0f1;
@@ -15,23 +16,27 @@ button {
 }
 
 header {
+  background-color: #0d1117;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
 }
 
-.name {
+#name {
+  background-color: #0d1117;
   font-family: "Roboto Serif", sans-serif;
   color: white;
   font-size: 20px;
 }
 
 .navlinks {
+  background-color: #0d1117;
   list-style: none;
 }
 
 .navlinks li {
+  background-color: #0d1117;
   display: inline-block;
   padding-left: 20px;
   padding-right: 20px;
@@ -67,19 +72,15 @@ header {
 }
 
 .projInfo {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 7fr 2fr;
   padding: 200px;
-  display: flex;
-  flex-direction: column;
-  text-align: center;
+  text-align: left;
   align-items: center;
   background-color: lightblue;
   color: white;
   font-weight: bold;
-}
-
-.projInfo h1,
-p {
-  background-color: lightblue;
 }
 
 #clubCal {
@@ -95,5 +96,10 @@ p {
 }
 
 #img {
-  width: 40%;
+  width: 90%;
+  height: 100%;
+}
+
+.col2 {
+  font-size: 20px;
 }
