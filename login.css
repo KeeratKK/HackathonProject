@@ -115,3 +115,9 @@ label {
   padding-left: 7px;
   color: blue;
 }
+
+#random {
+  padding: 25px;
+  color: red;
+  text-align: center;
+}
