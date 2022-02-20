@@ -37,21 +37,67 @@
         everyYear: true // Same event every year (optional)
       },
       {
-        id: 'tennis', // Event's ID (required)
+        id: 'tennis1', // Event's ID (required)
         name: "Tennis Practice", // Event name (required)
-        date: "February/2/2022", date: "February/9/2022", date: "February/16/2022",date: "February/23/2022", // Event date (required)
+        date: "February/2/2022", // Event date (required)
         type: "sports", // Event type (required)
         everyYear: false, // Same event every year (optional)
         description: "Practice from 4-6",
       },
       {
-        name: "Vacation Leave2",
-        badge: "02/14 - 02/15", // Event badge (optional)
-        date: ["February/14/2022", "February/15/2022"], // Date range
-        description: "Vacation leave for 3 days.", // Event description (optional)
-        type: "event",
-        color: "#63d867" // Event custom color (optional)
-      }
+        id: 'tennis2', // Event's ID (required)
+        name: "Tennis Practice", // Event name (required)
+        date: "February/9/2022", // Event date (required)
+        type: "sports", // Event type (required)
+        everyYear: false, // Same event every year (optional)
+        description: "Practice from 4-6",
+      },
+      {
+        id: 'tennis3', // Event's ID (required)
+        name: "Tennis Practice", // Event name (required)
+        date: "February/16/2022", // Event date (required)
+        type: "sports", // Event type (required)
+        everyYear: false, // Same event every year (optional)
+        description: "Practice from 4-6",
+      },
+      {
+        id: 'tennis4', // Event's ID (required)
+        name: "Tennis Practice", // Event name (required)
+        date: "February/23/2022", // Event date (required)
+        type: "sports", // Event type (required)
+        everyYear: false, // Same event every year (optional)
+        description: "Practice from 4-6",
+      },
+      {
+        id: 'Learn', // Event's ID (required)
+        name: "Learnathon", // Event name (required)
+        date: "February/19/2022", // Event date (required)
+        type: "coding", // Event type (required)
+        everyYear: false, // Same event every year (optional)
+        description: "Learn to Code from 9-6",
+      },
+      {
+        id: 'Hack', // Event's ID (required)
+        name: "Hackathon", // Event name (required)
+        date: "February/20/2022", // Event date (required)
+        type: "coding", // Event type (required)
+        everyYear: false, // Same event every year (optional)
+        description: "Code from 9 to 9",
+        TimeRanges: ["9:00","11:00"]
+        
+      },
+      {
+        id: 'Chess', // Event's ID (required)
+        name: "Chess Competition", // Event name (required)
+        date: "February/20/2022", // Event date (required)
+        type: "chess", // Event type (required)
+        everyYear: false, // Same event every year (optional)
+        description: "Canceled",
+        TimeRanges: ["9:00","11:00"],
+        color: "#000099"
+        
+        
+      },
     ]
     })
 })
@@ -60,6 +106,52 @@
       <div class= "test">
             <div id = "calendar"></div>
       </div>
-    
+
+
+
+        <div class = "form">
+            <div class = "text">
+                <label for = "addEvent">Add An Event Here!!!</label><br>
+            </div>
+        <form>
+            <br>
+            <br>
+        <label for = "name">Name of Event:</label><br>
+        <input type = "text" id = "name" name = "name"><br>
+        <label for = "date">Date (ex. February/20/2022)</label><br>
+        <input type = "text" id = "date" name = "name"><br>
+        <label for = "description">Description</label><br>
+        <textarea name="message" rows="10" cols="80" id = "description"></textarea><br>
+        <label for = "typeOfEvent">Type of Event?</label><br>
+        <input type = "text" id = "type" name = "name"><br>
+        <label for = "repeat">Does this event repeat every year?</label><br>
+        <input type="radio" id="repYes" name="Yes" value="">
+        <label for="rep">Yes</label><br>
+        <input type="radio" id="repNo" name="No" value="">
+        <label for="rep">No</label><br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <button type="button" name="btnn" id="btn" onclick="submitFunction()">
+            Add Event
+        </button>
+        <script>
+            function submitFunction() {
+              alert("Event has been succesfully added");
+            }
+            </script>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        
+
+      </form>
+      </div>
   </body>
 </html>
