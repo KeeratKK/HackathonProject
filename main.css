@@ -8,6 +8,7 @@
 li,
 a,
 button {
+  font-family: "Roboto Serif", sans-serif;
   text-decoration: none;
   color: #edf0f1;
   font-size: 16px;
@@ -21,6 +22,7 @@ header {
 }
 
 .name {
+  font-family: "Roboto Serif", sans-serif;
   color: white;
   font-size: 20px;
 }
@@ -62,4 +64,36 @@ header {
 
 #btn:hover {
   background-color: #09bcee;
+}
+
+.projInfo {
+  padding: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  background-color: lightblue;
+  color: white;
+  font-weight: bold;
+}
+
+.projInfo h1,
+p {
+  background-color: lightblue;
+}
+
+#clubCal {
+  padding-bottom: 25px;
+}
+
+#clubP {
+  padding-bottom: 25px;
+}
+
+#bullet {
+  padding-bottom: 25px;
+}
+
+#img {
+  width: 40%;
 }
